@@ -42,7 +42,7 @@
           }
         });
         var xml = feed.xml();
-       // context.succeed(xml);
+       console.log(xml);
       }
     });
   
