@@ -1,0 +1,23 @@
+{
+  "name": "pinboard-blog-rss",
+  "version": "1.0.0",
+  "description": "Get latest Pinboard blogposts as Maciej's link is broken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bookmarks",
+    "rss",
+    "maciej",
+    "pinboard",
+    "delicious"
+  ],
+  "author": "Conor O'Neill",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "rss": "^1.2.2"
+  }
+}
