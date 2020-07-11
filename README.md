@@ -1,22 +1,24 @@
-# Evening Echo RSS
-This Serverless function provides an RSS feed for each of the news pages on Cork's Evening Echo newspaper website.
+# Pinboard Blog RSS
+Get latest Pinboard blogposts because Maciej's RSS is broken. But actually it's so broken this doesn't really work, as even the headline link to self on the most recent post is wrong. 
+
+```
+  ¯\_(ツ)_/¯
+```
 
 ## Installing and using
 * Configure your AWS account
-* Install Node.js 8+
+* Install Node.js 12+
 
 ```bash
-git clone git@github.com:conoro/evening-echo-rss.git
-cd evening-echo-rss
+git clone git@github.com:conoro/pinboard-blog-rss.git
+cd pinboard-blog-rss
 npm install -g serverless
 npm install
 serverless deploy
 ```
 Then you access each RSS feed like so:
 
-* https://url.of.serverless.function/dev/rss?page=https://www.eveningecho.ie/corknews
-* https://url.of.serverless.function/dev/rss?page=https://www.eveningecho.ie/nationalnews
-* https://url.of.serverless.function/dev/rss?page=https://www.eveningecho.ie/business
+* https://url.of.serverless.function/dev/rss
 
 LICENSE Apache-2.0
 
