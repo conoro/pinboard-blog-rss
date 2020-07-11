@@ -1,5 +1,5 @@
 # Pinboard Blog RSS
-Get latest Pinboard blogposts because Maciej's RSS is broken. But actually it's so broken this doesn't really work, as even the headline link to self on the most recent post is wrong. 
+Get latest Pinboard blogposts because Maciej's RSS is broken. But actually the whole site nav is so broken that this doesn't really work, as even the headline link to self on the most recent post is wrong. 
 
 ```
   ¯\_(ツ)_/¯
