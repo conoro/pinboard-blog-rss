@@ -1,10 +1,10 @@
 service: pinboard-blog-rss
 
-frameworkVersion: ">=1.1.0 <2.0.0"
+frameworkVersion: ">=2.24.0"
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
 
 functions:
   check:
